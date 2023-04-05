@@ -11,6 +11,9 @@
     },
     "dev": {
       "cache": false
+    },
+    "sort-package-json": {
+      "outputs": []
     }
   }
 }

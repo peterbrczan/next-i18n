@@ -1,0 +1,30 @@
+@import "../styles/dimensions.css";
+@import "../styles/colors.css";
+
+@font-face {
+  src: url("../public/fonts/Comfortaa-Regular.ttf");
+  font-family: "Comfortaa-Regular";
+}
+
+@font-face {
+  src: url("../public/fonts/Comfortaa-Bold.ttf");
+  font-family: "Comfortaa-Bold";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Comfortaa-Regular", serif;
+}
+
+body #__next {
+  height: 100%;
+}

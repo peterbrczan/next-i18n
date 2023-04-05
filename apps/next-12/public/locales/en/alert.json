@@ -1,0 +1,5 @@
+{
+  "The input field cannot be empty!": "The input field cannot be empty!",
+  "The value must be longer then minimum characters!": "The value must be longer then {{minCharacters}} characters!",
+  "The email's format is invalid!": "The email's format is invalid!"
+}
