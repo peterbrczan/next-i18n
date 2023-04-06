@@ -1,0 +1,11 @@
+{
+  "Test": "Teszt",
+  "NavigationItem": {
+    "Home": "Főoldal",
+    "Form": "Űrlap"
+  },
+  "Home": {
+    "Internationalization in Next 12": "Nemzetköziesedés Next 12-nél",
+    "Migrate from 12 to 13": "Migráció 12-ről 13-ra"
+  }
+}

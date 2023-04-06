@@ -1,5 +1,6 @@
 {
   "The input field cannot be empty!": "A beviteli mező nem lehet üres!",
   "The value must be longer then minimum characters": "A szövegnek hosszabbnak kell lennie, mint {{minCharacters}} karakter!",
-  "The email's format is invalid!": "Az e-mail formátuma helytelen!"
+  "The email's format is invalid!": "Az e-mail formátuma helytelen!",
+  "We have successfully sent you a verification link to the provided email address": "Sikeresen kiküldtök a visszaigazoláshoz szükséges linket a megadott {{email}} email címre!"
 }

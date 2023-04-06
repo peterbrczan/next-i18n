@@ -6,25 +6,27 @@ import { i18n, useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useForm } from "react-hook-form";
 import { useValidator } from "../hooks/use-validator";
+import { FormValue } from "../model/interfaces/form";
+import { toast } from "react-toastify";
 
 export default function Form() {
   const {
     handleSubmit,
     formState: { errors },
     register,
-  } = useForm();
+  } = useForm<FormValue>();
   const { t } = useTranslation();
   const validator = useValidator();
 
-  function onSubmit(formValue: {
-    firstName: string;
-    lastName: string;
-    email: string;
-  }) {
-    console.log(
-      "%c [form.tsx:17] formValue ",
-      "background: #011c22; color: #62ffc5",
-      formValue
+  function onSubmit(formValue: FormValue) {
+    toast.success(
+      t(
+        "We have successfully sent you a verification link to the provided email address",
+        {
+          email: formValue.email,
+          ns: "alert",
+        }
+      )
     );
   }
 
